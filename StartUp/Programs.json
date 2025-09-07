@@ -1,0 +1,21 @@
+[
+  {
+    "FileName": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "Arguments": "--profile-directory=Default --app-id=ffpdhnednbmelagcknnegjemgooenfml",
+    "VirtualDesktop": "Ideas"
+  },
+  {
+    "FileName": "C:\\Users\\Simon\\AppData\\Local\\Postman\\Postman.exe",
+    "VirtualDesktop": "Ideas"
+  },
+  {
+    "FileName": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2507.26.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+    "VirtualDesktop": "Work"
+  },
+  {
+    "FileName": "explorer.exe",
+    "Arguments": "shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
+    "VirtualDesktop": "Communication"
+  }
+  
+]
