@@ -4,10 +4,22 @@ namespace StartUp;
 
 public class ProgramInformation
 {
+    [JsonPropertyName("Name")]
+    public string? Name { get; set; }
+    
     [JsonPropertyName("FileName")]
     public string FileName { get; set; }
+    
     [JsonPropertyName("Arguments")]
     public string? Arguments { get; set; }
+
+    [JsonPropertyName("IsElectronApp")] 
+    public bool IsElectronApp { get; set; } = false;
+    [JsonPropertyName("SleepBeforeSearch")] 
+    public int SleepBeforeSearch { get; set; } = 700;
+
+    [JsonPropertyName("IsPackagedApp")] 
+    public bool IsPackagedApp { get; set; } = false;
 
     private VirtualDesktopNames _virtualDesktop = VirtualDesktopNames.Default;
     [JsonPropertyName("VirtualDesktop")] 

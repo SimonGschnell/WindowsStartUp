@@ -1,21 +1,31 @@
 [
+  
   {
+    "Name": "Notepad",
+    "FileName": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2507.26.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+    "VirtualDesktop": "Work",
+    "SleepBeforeSearch": 400
+  },
+  {
+    "Name": "TasksBoard",
     "FileName": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
     "Arguments": "--profile-directory=Default --app-id=ffpdhnednbmelagcknnegjemgooenfml",
-    "VirtualDesktop": "Ideas"
+    "VirtualDesktop": "Ideas",
+    "SleepBeforeSearch": 400
   },
   {
+    "Name": "Postman",
     "FileName": "C:\\Users\\Simon\\AppData\\Local\\Postman\\Postman.exe",
-    "VirtualDesktop": "Ideas"
+    "VirtualDesktop": "Ideas",
+    "SleepBeforeSearch": 700
   },
   {
-    "FileName": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2507.26.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
-    "VirtualDesktop": "Work"
-  },
-  {
+    "Name": "WhatsApp",
     "FileName": "explorer.exe",
     "Arguments": "shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
-    "VirtualDesktop": "Communication"
+    "VirtualDesktop": "Communication",
+    "IsElectronApp": true,
+    "IsPackagedApp": true,
+    "SleepBeforeSearch": 600
   }
-  
 ]

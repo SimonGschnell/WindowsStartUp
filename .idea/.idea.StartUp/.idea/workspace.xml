@@ -8,14 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a86e877-88c6-451b-a446-a51e9a0ac492" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartUp.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartUp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartUp/ProgramInformation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartUp/Programs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartUp/StartUp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartUp/VirtualDesktopNames.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StartUp/FindWindowHandle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StartUp/isVirtualDesktopCategorizable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StartUp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StartUp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartUp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/StartUp.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartUp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StartUp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartUp/ProgramInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StartUp/ProgramInformation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartUp/Programs.json" beforeDir="false" afterPath="$PROJECT_DIR$/StartUp/Programs.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +28,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/897ab8b7e15a4195b04c0f9fe4c0e8b11da00/11/2ce17586/ComWrapperBase`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/272f7fa8ba8fe1496a488d5eda2dbd4f6cd182c1430c3cc7822b83dbf64b4b2/Process.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56dbd817965a6c8ddb04d88402812c2ed2a2bc9705cb97f04c24c4916cfcf/Process.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92bf31dc95e1fe5be2bd4759040576ce4496233a9995ceca62fbbfaeda23d/ProcessInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b0b0c4a2151d399b735ee25ece57ad68175a5c695936bef89d53e293f47c75/Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c5ca6ebf119bc5c3a57719d72ffaa32c654261bcc7bb975972ef561a56cb32/Process.Win32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7da56581ee7b20208f09e80b735961e4d5d7b9e5562bfdec94a75c57b391/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StartUp/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="32MkQmPJzTPNjhrWxWmZoG0adxf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -84,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757237815926</updated>
-      <workItem from="1757237817202" duration="14456000" />
+      <workItem from="1757237817202" duration="15265000" />
+      <workItem from="1757851069025" duration="14537000" />
     </task>
     <servers />
   </component>
@@ -94,5 +100,12 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#StartUp.Program.FindsHandleAndMovesToDesktop" memberName="proc" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
